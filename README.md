@@ -1,6 +1,6 @@
 # VoIP Call Simulation Android App
 
-This Android project is a simulated VoIP calling application developed in **Java**. It mimics real call behavior using Android components like `AlarmManager`, `BroadcastReceiver`, full-screen `Activity`, `Service`, and local `Room` database. The app is built with **MVVM architecture** and is fully compatible with **Android 15**.
+This Android project is a simulated VoIP calling application developed in **Java**. It mimics real call behavior using Android components, including `AlarmManager`, `BroadcastReceiver`, a full-screen `Activity`, `Service`, and a local `Room` database. The app is built with **MVVM architecture** and is fully compatible with **Android 15**.
 
 🔗 **GitHub Repo**: [https://github.com/aryanandroiddev/VoIPCallSim](https://github.com/aryanandroiddev/VoIPCallSim)
 
@@ -83,7 +83,6 @@ git clone https://github.com/aryanandroiddev/VoIPCallSim.git
 3. Accept all permissions
 4. Click `Schedule Call` on the main screen
 5. A full-screen call UI will appear after 5 seconds
-
 ---
 
 ## 📁 Folder Structure
@@ -106,14 +105,14 @@ voipcallsim/
 ├── service/
 │   └── CallService.java
 ├── ui/
-    ├──viewmodel/
-    │  └── CallViewModel.java 
-    └──activity/
-       ├── MainActivity.java
-       ├── IncomingCallActivity.java
-       ├── OngoingCallActivity.java
-       └── CallLogActivity.java
-
+│   ├── viewmodel/
+│   │   └── CallViewModel.java 
+│   └── activity/
+│       ├── MainActivity.java
+│       ├── IncomingCallActivity.java
+│       ├── OngoingCallActivity.java
+│       └── CallLogActivity.java
+└── utils/ (currently empty)
 ```
 **Aryan Srivastava**  
 aryaupvns@gmail.com
