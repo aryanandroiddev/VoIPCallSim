@@ -26,7 +26,7 @@ This Android project is a simulated VoIP calling application developed in **Java
 
 ### 📟 Ongoing Call
 - Foreground Service displays timer and "End Call" button
-- Timer continues even if app is backgrounded
+- Timer continues even if the app is backgrounded
 
 ### 🧾 Call Logs
 - Stored locally using **Room DB**
@@ -41,10 +41,10 @@ This Android project is a simulated VoIP calling application developed in **Java
   - Caller name
   - Time
   - "Call Back" quick action
-- Tapping notification opens the call log screen
+- Tapping the notification opens the call log screen
 
 ### ✅ Bonus
-- Schedule test call using the main screen
+- Schedule a test call using the main screen
 
 ---
 
@@ -90,24 +90,29 @@ git clone https://github.com/aryanandroiddev/VoIPCallSim.git
 
 ```
 voipcallsim/
-├── activity/
-│   ├── MainActivity.java
-│   ├── IncomingCallActivity.java
-│   ├── OngoingCallActivity.java
-│   └── CallLogActivity.java
 ├── adapter/
 │   └── CallLogAdapter.java
 ├── data/
-│   ├── db/ (Room DB)
-│   └── model/ (CallLog.java)
+│   ├── model/
+│       └── CallLog.java
+│   └── db/
+│       ├── AppDatabase.java
+│       └── CallLogDao.java
 ├── domain/
-│   └── repository/ (CallRepository.java)
+│   └── repository/
+│       └── CallRepository.java
 ├── receiver/
 │   └── CallReceiver.java
 ├── service/
 │   └── CallService.java
 ├── ui/
-    └── viewmodel/ (CallViewModel.java)
+    ├──viewmodel/
+    │  └── CallViewModel.java 
+    └──activity/
+       ├── MainActivity.java
+       ├── IncomingCallActivity.java
+       ├── OngoingCallActivity.java
+       └── CallLogActivity.java
 
 ```
 **Aryan Srivastava**  
