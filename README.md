@@ -94,7 +94,7 @@ voipcallsim/
 │   └── CallLogAdapter.java
 ├── data/
 │   ├── model/
-│       └── CallLog.java
+│   │   └── CallLog.java
 │   └── db/
 │       ├── AppDatabase.java
 │       └── CallLogDao.java
